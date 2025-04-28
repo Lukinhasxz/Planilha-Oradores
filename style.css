@@ -1,0 +1,57 @@
+.elementos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin: 5px;
+}
+.caixa-oradores, p, h2 {
+    border: solid;
+    padding: 10px;
+    margin: 10px;
+}
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.c {
+    background-color: rgb(109, 0, 0);
+    border: solid black;
+}
+p, h2 {
+    text-align: center;
+}
+.c, .t, .cg, .o, .cn {
+    color: white;
+    border: solid black;
+}
+.o {
+    background-color: rgb(0, 0, 85);
+}
+.t {
+    background-color: rgb(0, 70, 0);
+}
+.cg {
+    background-color: rgb(37, 0, 37);
+}
+.cn {
+    background-color: rgb(196, 147, 24);
+}
+.caixa-oradores {
+    overflow-x: auto;
+    padding: 10px;
+}
+.elementos {
+    min-width: 1200px; 
+}
+.caixa-oradores::-webkit-scrollbar {
+    height: 8px;
+}
+.caixa-oradores::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+}
+.caixa-oradores::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
